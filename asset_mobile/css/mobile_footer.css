@@ -172,7 +172,7 @@
 
 .mob_blog_top_icon{
   position: fixed;
-  top:82%;
+  bottom: 12%;
   max-width: 550px;
   right:5%;
 }
