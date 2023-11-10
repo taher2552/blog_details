@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -17,8 +17,7 @@ a{
   --mobile_academy_star_background: #fc0;
 }
 
-
-.mobile_top_header{
+.mobile_top_header {
   max-width: 550px;
   margin: 0 auto;
 }
@@ -52,17 +51,17 @@ a{
   letter-spacing: 0.1rem;
 }
 
-.mob_blog_top_images{
+.mob_blog_top_images {
   display: flex;
   justify-content: start;
   align-items: center;
   margin-top: -0.5rem;
 }
 
-.mob_blog_back_arrow{
+.mob_blog_back_arrow {
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #FFF6F6;
+  background-color: #fff6f6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,6 +219,13 @@ input[class="mob_blog_search_input"] {
   margin-bottom: 1rem;
 }
 
+.mob_blog_detail_new_time {
+  color: #aaa;
+  font-family: DM Sans;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
 .mob_blog_short_txt {
   color: #505050;
   font-family: DM Sans;
@@ -301,103 +307,103 @@ input[class="mob_blog_search_input"] {
   margin-bottom: 0.9rem;
 }
 
-.mob_blog_current{
-    display: flex;
-    justify-content: start;
-    align-items: start;
+.mob_blog_current {
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
-.mob_blog_world_cup{
-    color:#505050;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-margin-left: 0.3rem;
-margin-top: -0.1rem;
+.mob_blog_world_cup {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 0.3rem;
+  margin-top: -0.1rem;
 }
 
-.mob_blog_fixed{
-    margin-left: -1rem;
+.mob_blog_fixed {
+  margin-left: -1rem;
 }
-
-
 
 /* detail page  */
 
-.mob_blog_detail_container{
+.mob_blog_detail_container {
   padding-top: 0rem;
 }
 
-.mob_blog_details_fit{
-  color:#222;
-font-family: DM Sans;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 600;
-line-height: 1.875rem;
+.mob_blog_details_fit {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.875rem;
 }
 
-.mob_blog_details_flex{
+.mob_blog_details_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.mob_blog_details_owner_img img{
-  width: 1.5rem;
-height: 1.5rem;
-flex-shrink: 0;
-border-radius: 50%;
-margin-right: 0.3rem;
-margin-left: 0.3rem;
+.mob_blog_details_owner_img img {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
 }
 
-.mob_blog_details_info{
+.mob_blog_details_info {
   display: flex;
   justify-content: end;
   align-items: center;
 }
 
-.mob_blog_details_owner_name{
-  color:#222;
-font-family: DM Sans;
-font-size: 0.8rem;
-font-weight: 600;
-text-transform: capitalize;
-margin-top: -0.4rem;
+.mob_blog_details_owner_name {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: -0.4rem;
 }
 
-.mob_blog_details_owner_name span{
-  color:#AAA;
-font-family: DM Sans;
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 500;
+.mob_blog_details_owner_name span {
+  color: #aaa;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
 }
 
-.mob_blog_details_topics{
+.mob_blog_details_topics {
   border-radius: 0.625rem;
-border: 1px solid #DCDCDC;
-background:#FFF;
-padding: 1rem;
-margin-bottom: 1rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
-.mob_blog_details_cover{
-  color:#222;
-font-family: DM Sans;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 1rem;
+.mob_blog_details_cover {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
-.mob_blog_details_cover_list ol{
+.mob_blog_details_cover_list ol {
   margin-left: 1rem;
 }
 
-.mob_blog_details_cover_list ol li{
+.mob_blog_details_cover_list ol li {
   color: #222;
   font-family: DM Sans;
   font-size: 1rem;
@@ -408,43 +414,43 @@ margin-bottom: 1rem;
   margin-bottom: 0.5rem;
 }
 
-.mob_blog_details_cover_list ol li:last-child{
+.mob_blog_details_cover_list ol li:last-child {
   margin-bottom: 0;
 }
 
-.mob_blog_details_active_list{
+.mob_blog_details_active_list {
   color: #fe5c4d !important;
 }
 
-.mob_blog_details_part_heading{
-  color:#222;
-font-family: DM Sans;
-font-size: 1.375rem;
-font-style: normal;
-font-weight: 600;
-margin-top: 2.5rem;
-margin-bottom: 0.8rem;
-text-transform: capitalize;
+.mob_blog_details_part_heading {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+  text-transform: capitalize;
 }
 
-.blog_details_full_blog{
-  color:#505050;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-text-align: justify;
+.blog_details_full_blog {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
 }
 
-.mob_blog_details_tags_list{
+.mob_blog_details_tags_list {
   border-radius: 1.875rem;
-border: 1px solid #DCDCDC;
-padding: 0.3rem 0.6rem;
-margin-bottom: 0.3rem;
-margin-left: 0.3rem;
+  border: 1px solid #dcdcdc;
+  padding: 0.3rem 0.6rem;
+  margin-bottom: 0.3rem;
+  margin-left: 0.3rem;
 }
 
-.mob_blog_details_tags_list p{
+.mob_blog_details_tags_list p {
   color: var(--Primary, #222);
   font-family: DM Sans;
   font-size: 1rem;
@@ -452,57 +458,54 @@ margin-left: 0.3rem;
   text-transform: capitalize;
 }
 
-.mob_blog_details_tags{
+.mob_blog_details_tags {
   display: flex;
   justify-content: start;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.mob_blog_details_input{
+.mob_blog_details_input {
   border-radius: 0.3125rem;
-border: 1px solid #DCDCDC;
-background: #FFF;
-padding: 1rem;
-margin-bottom:1rem;
-width: 100%;
-outline: none;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  outline: none;
 }
 
-.mob_blog_comment_section{
+.mob_blog_comment_section {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
 }
 
-.mob_blog_details_btn{
+.mob_blog_details_btn {
   border-radius: 0.3125rem;
-border: 1px solid #FE5C4D;
-color:#FE5C4D;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-weight: 700;
-text-transform: uppercase;
-width: 100%;
-background-color: #fff;
-padding: 1rem;
-cursor: pointer;
-margin-bottom: 1.5rem;
+  border: 1px solid #fe5c4d;
+  color: #fe5c4d;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
 }
 
-.mob_blog_details_related{
+.mob_blog_details_related {
   margin-top: 2.5rem;
 }
 
-.mob_blog_details_post{
+.mob_blog_details_post {
   margin-top: 1.5rem;
 }
 
-
-
 /* review css  */
-
 
 .mob_academy_review_name {
   display: flex;
@@ -524,7 +527,6 @@ margin-bottom: 1.5rem;
   font-family: DM Sans;
   font-size: 0.875rem;
   font-weight: 600;
-
 }
 
 .mob_academy_min {
@@ -573,7 +575,8 @@ margin-bottom: 1.5rem;
   align-items: center;
 }
 
-.mob_academy_reply , .mob_academy_reply_2 {
+.mob_academy_reply,
+.mob_academy_reply_2 {
   color: #222;
   font-family: DM Sans;
   font-size: 0.75rem;
@@ -582,16 +585,16 @@ margin-bottom: 1.5rem;
   margin-left: 0.5rem;
 }
 
-.mob_academy_reply_2{
- margin-left: 2rem;
+.mob_academy_reply_2 {
+  margin-left: 2rem;
 }
 
-.mob_academy_reply_box{
+.mob_academy_reply_box {
   border-left: 1px solid #dcdcdc;
   padding-left: 1rem;
 }
 
-.mob_academy_reply_wrapper{
+.mob_academy_reply_wrapper {
   padding-bottom: 1rem;
   border-bottom: 1px solid #dcdcdc;
   margin-left: -1rem;
@@ -600,18 +603,16 @@ margin-bottom: 1.5rem;
   padding-right: 1rem;
 }
 
-.mob_academy_reply_wrapper:last-child{
+.mob_academy_reply_wrapper:last-child {
   border-bottom: none;
 }
 
-
-.mob_academy_all_review{
+.mob_academy_all_review {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
 }
-
 
 .mobile_academy_stars_small {
   --mobile_academy_percent: calc(var(--star_rating) / 5 * 100%);
@@ -634,6 +635,5 @@ margin-bottom: 1.5rem;
 }
 
 /* review css ends */
-
 
 /* detail page ends */
