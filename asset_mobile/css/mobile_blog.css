@@ -39,7 +39,7 @@ a{
   margin-right: 1rem;
   border-radius: 0.3125rem;
   background: #fe5c4d;
-  padding: 0.7rem 1.5rem;
+  padding: 0.5rem 1rem;
   color: #fff;
   border: none;
   outline: none;
@@ -68,6 +68,11 @@ a{
   align-items: center;
   margin-right: 0.5rem;
   margin-top: 0.3rem;
+}
+
+.mobile_home_logo {
+  width: 5rem;
+  height: 3rem;
 }
 
 .mob_blog_heading {
